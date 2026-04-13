@@ -15,26 +15,29 @@ A Claude Code plugin marketplace containing 6 AI governance skills covering majo
 
 ## Installation
 
-Add the marketplace to your Claude Code installation:
+### Claude Code (CLI, IDE extensions)
+
+Add the marketplace, then install any skill:
 
 ```
 /plugin marketplace add verifywise-ai/ai-governance-skills
+/plugin install eu-ai-act@ai-governance-skills
 ```
 
-Then install individual skills:
+Available skill names: `eu-ai-act`, `nist-ai-rmf`, `iso42001`, `nyc-local-law-144`, `south-korea-ai-act`, `brazil-ai-act`
 
-```
-/plugin install <name>@ai-governance-skills
-```
+### Claude.ai (web and desktop app)
 
-### Available skill names
+Download the `.skill` file from the `skills/` folder in this repo, then upload it to a Claude conversation. The skill activates automatically when the topic comes up.
 
-- `eu-ai-act`
-- `nist-ai-rmf`
-- `iso42001`
-- `nyc-local-law-144`
-- `south-korea-ai-act`
-- `brazil-ai-act`
+| Skill file | Framework |
+|---|---|
+| `skills/eu-ai-act.skill` | EU AI Act |
+| `skills/nist-ai-rmf.skill` | NIST AI RMF |
+| `skills/iso42001.skill` | ISO 42001 |
+| `skills/nyc-local-law-144.skill` | NYC Local Law 144 |
+| `skills/south-korea-ai-act.skill` | South Korea AI Basic Act |
+| `skills/brazil-ai-act.skill` | Brazil AI Act |
 
 ## Author
 
