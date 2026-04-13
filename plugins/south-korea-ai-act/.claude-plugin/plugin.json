@@ -1,0 +1,20 @@
+{
+  "name": "south-korea-ai-act",
+  "description": "Expert South Korea AI Basic Act compliance advisor — high-risk AI classification, obligations by role, impact assessment, transparency compliance, and gap assessment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "keywords": [
+    "south-korea-ai-act",
+    "ai-governance",
+    "ai-basic-act",
+    "high-risk-ai",
+    "impact-assessment",
+    "transparency",
+    "gap-assessment"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "nist-ai-rmf",
+  "description": "Expert NIST AI Risk Management Framework advisor — organizational profile assessment, AI risk identification, playbook action guidance, trustworthy AI characteristics mapping, and gap assessment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "keywords": [
+    "nist-ai-rmf",
+    "ai-governance",
+    "risk-management",
+    "trustworthy-ai",
+    "playbook",
+    "gap-assessment",
+    "organizational-profile"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "brazil-ai-act",
+  "description": "Expert Brazil AI Act (Marco Legal da IA) compliance advisor — risk classification, rights of affected persons, governance system design, obligations by role, and gap assessment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "keywords": [
+    "brazil-ai-act",
+    "marco-legal-da-ia",
+    "ai-governance",
+    "risk-classification",
+    "governance-system",
+    "gap-assessment"
+  ]
+}

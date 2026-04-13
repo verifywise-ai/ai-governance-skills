@@ -1,0 +1,20 @@
+{
+  "name": "nyc-local-law-144",
+  "description": "Expert NYC Local Law 144 compliance advisor — AEDT determination, bias audit planning and report generation, candidate notice requirements, and compliance gap assessment.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "keywords": [
+    "nyc-local-law-144",
+    "ai-governance",
+    "aedt",
+    "bias-audit",
+    "employment",
+    "compliance",
+    "gap-assessment"
+  ]
+}

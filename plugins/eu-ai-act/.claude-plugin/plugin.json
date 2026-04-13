@@ -1,0 +1,21 @@
+{
+  "name": "eu-ai-act",
+  "description": "Expert EU AI Act (Regulation 2024/1689) compliance advisor — risk classification, high-risk gap assessment, conformity assessment, FRIA generation, GPAI obligations, and technical documentation.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "keywords": [
+    "eu-ai-act",
+    "ai-governance",
+    "compliance",
+    "risk-classification",
+    "conformity-assessment",
+    "fria",
+    "gpai",
+    "technical-documentation"
+  ]
+}

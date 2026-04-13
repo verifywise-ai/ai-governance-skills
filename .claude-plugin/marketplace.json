@@ -1,0 +1,55 @@
+{
+  "name": "ai-governance-skills",
+  "version": "1.0.0",
+  "description": "A Claude Code plugin marketplace with 6 AI governance skills covering major AI regulations and frameworks.",
+  "author": {
+    "name": "Gorkem Cetin"
+  },
+  "homepage": "https://github.com/verifywise-ai/ai-governance-skills",
+  "repository": "https://github.com/verifywise-ai/ai-governance-skills",
+  "license": "MIT",
+  "plugins": [
+    {
+      "name": "eu-ai-act",
+      "description": "Expert EU AI Act (Regulation 2024/1689) compliance advisor — risk classification, high-risk gap assessment, conformity assessment, FRIA generation, GPAI obligations, and technical documentation.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/eu-ai-act"
+    },
+    {
+      "name": "nist-ai-rmf",
+      "description": "Expert NIST AI Risk Management Framework advisor — organizational profile assessment, AI risk identification, playbook action guidance, trustworthy AI characteristics mapping, and gap assessment.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/nist-ai-rmf"
+    },
+    {
+      "name": "iso42001",
+      "description": "Expert ISO/IEC 42001:2023 AI Management System advisor — gap assessment, AISIA, AI risk assessment, SoA generation for 38 Annex A controls, policy generation, and certification readiness.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/iso42001"
+    },
+    {
+      "name": "nyc-local-law-144",
+      "description": "Expert NYC Local Law 144 compliance advisor — AEDT determination, bias audit planning and report generation, candidate notice requirements, and compliance gap assessment.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/nyc-local-law-144"
+    },
+    {
+      "name": "south-korea-ai-act",
+      "description": "Expert South Korea AI Basic Act compliance advisor — high-risk AI classification, obligations by role, impact assessment, transparency compliance, and gap assessment.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/south-korea-ai-act"
+    },
+    {
+      "name": "brazil-ai-act",
+      "description": "Expert Brazil AI Act (Marco Legal da IA) compliance advisor — risk classification, rights of affected persons, governance system design, obligations by role, and gap assessment.",
+      "version": "1.0.0",
+      "category": "ai-governance",
+      "path": "plugins/brazil-ai-act"
+    }
+  ]
+}
