@@ -1,0 +1,39 @@
+# Cross-framework mapping — South Korea AI Basic Act to other frameworks
+
+## Requirement-level mapping
+
+| South Korea AI Act requirement | EU AI Act article | ISO 42001 control | NIST AI RMF subcategory | Brazil AI Act | NYC LL144 |
+|-------------------------------|-------------------|-------------------|------------------------|---------------|-----------|
+| High-risk AI classification (presidential decree designation) | Art. 6, Annex III — risk classification with 4 tiers and Annex III categories | A.6 — AI system impact assessment to determine risk level | MAP-1 (context established), MAP-2 (AI risks and benefits mapped) | Risk-based tiered classification (high-risk, excessive-risk categories) | AEDT determination — whether tool meets automated employment decision tool definition |
+| Impact assessment (mandatory for high-risk before deployment) | Art. 9 (risk management), Art. 27 (FRIA for deployers) — risk management system and fundamental rights impact assessment | Clause 6.1.2 — AI risk assessment process within management system | MAP-4 (risks prioritized and documented) | Algorithmic impact assessment for high-risk AI systems | No direct equivalent — bias audit covers fairness but not broader impact |
+| Transparency and disclosure (AI use notification) | Art. 13 (transparency for high-risk), Art. 50 (limited risk transparency) — information provision and interaction disclosure | A.8.1 — Transparency and provision of information about AI system characteristics | GV-1.2 (documentation of AI system characteristics and risks) | Right to information about AI system use and decision-making involvement | Notice requirement — employers must notify candidates and employees 10 business days before AEDT use |
+| Human oversight (design and implementation) | Art. 14 — human oversight measures for high-risk AI systems including ability to understand, monitor, intervene, override | A.5.8 — Controlling and monitoring AI systems with human oversight provisions | MG-2 (human decision-making retained where appropriate) | Right to human review of automated decisions | Alternative selection procedure — candidates may request alternative non-AEDT process |
+| Right to explanation (significant automated decisions) | Art. 86 — right to explanation of individual decision-making by high-risk AI | A.8.1 — Transparency requirements including explainability of AI outputs | GV-1.2 (documentation and communication of AI system behavior) | Right to explanation of automated decisions affecting individuals | No direct equivalent — LL144 does not require individual explanations |
+| Deepfake labeling (AI-generated synthetic content) | Art. 50(4) — persons deploying AI generating deep fakes must disclose content is artificially generated | A.8.1 — Transparency obligations extend to AI-generated content | GV-1.2 (transparency in AI system outputs and communication) | Transparency provisions for AI-generated content | No direct equivalent — LL144 scope limited to employment decisions |
+| Incident reporting (significant AI incidents to MSIT) | Art. 62 — serious incident reporting to market surveillance authorities | A.8.3 — Reporting AI system performance, incidents, and non-conformities | MG-4 (incident response and recovery processes) | Incident reporting obligations for AI systems causing serious harm | No incident reporting requirement under LL144 |
+| Data governance (training data quality and fairness) | Art. 10 — data and data governance requirements for training, validation, and testing datasets | A.7 — Data for AI systems including quality, provenance, and preparation | ME-1 (appropriate methods and metrics for AI system measurement) | Data governance provisions including data quality, accuracy, and bias prevention | No direct equivalent — data requirements implicit in bias audit methodology |
+| AI ethics principles (human dignity, fairness, safety) | Recitals and Art. 5 (prohibited practices reflect ethical boundaries) | A.5.5 — Assessing AI system impacts including bias and fairness management | GOVERN (governance structure embedding values and principles) | Foundational principles of human-centered AI and non-discrimination | No direct equivalent — LL144 addresses fairness through bias audit only |
+| Record-keeping (development and operational records) | Art. 12 — automatic logging and record-keeping for traceability | A.5.6 — Documentation of AI systems throughout lifecycle | MAP-5 (documentation of AI system characteristics and decisions) | Record-keeping provisions for AI system decisions and operations | Audit records retained but no comprehensive operational logging requirement |
+
+## Key structural differences
+
+| Dimension | South Korea AI Basic Act | EU AI Act | ISO 42001 | NIST AI RMF | Brazil AI Act | NYC LL144 |
+|-----------|------------------------|-----------|-----------|-------------|---------------|-----------|
+| Legal force | Binding national law | Binding EU regulation | Certifiable international standard (voluntary) | Voluntary framework | Pending legislation | Binding local law (NYC) |
+| Risk classification | Binary (high-risk / not high-risk) | 4 tiers (prohibited / high / limited / minimal) | Organization-defined risk assessment | Contextual risk profiling | Tiered (excessive / high / other) | Single category (AEDT) |
+| Scope | AI systems in South Korea or targeting Korean residents | AI systems placed on EU market or used in EU | Any organization managing AI systems | Any organization developing or deploying AI | AI systems in Brazil (pending) | Automated employment decision tools in NYC |
+| Enforcement | MSIT + National AI Committee | AI Office + national authorities | Certification bodies | None (voluntary) | Pending | NYC DCWP |
+| Penalties | To be defined by presidential decree | Up to 35M EUR or 7% global turnover | Loss of certification | None | Pending | Up to $1,500 per violation per day |
+| Unique elements | National AI Committee under PM; sandbox provisions; presidential decree flexibility | GPAI rules; CE marking; prohibited categories | Management system approach; continuous improvement | Functions-based (Govern, Map, Measure, Manage) | Rights-based approach | Narrow scope (employment only); annual bias audit |
+
+## Compliance gap analysis across frameworks
+
+| Gap area | Detail |
+|----------|--------|
+| Presidential decree dependency | South Korea's high-risk designations depend on presidential decrees not yet issued, creating uncertainty that other frameworks (EU AI Act with Annex III, NYC LL144 with AEDT definition) do not have |
+| Binary vs multi-tier classification | Organizations compliant with EU AI Act's 4-tier system must map their classification to South Korea's binary system, which may classify differently (no limited/minimal tiers) |
+| Explanation right scope differences | South Korea's right to explanation covers significant automated decisions broadly; EU Art. 86 is specific to high-risk AI; NYC LL144 has no explanation right. Organizations need jurisdiction-specific processes |
+| Deepfake labeling alignment | South Korea and EU AI Act both require deepfake labeling but may differ in technical standards and exceptions; organizations must track both sets of requirements |
+| Impact assessment vs FRIA vs bias audit | South Korea requires impact assessment for high-risk AI; EU requires FRIA for deployers (Art. 27); NYC requires annual bias audit. Each has different scope, content, and timing requirements |
+| Ethics principles as legal obligations | South Korea embeds AI ethics principles as legal requirements, unlike the EU AI Act (which uses prohibited practices) or NIST (voluntary principles). Compliance requires demonstrable ethics adherence |
+| Sandbox provisions | South Korea's regulatory sandbox for AI has no direct equivalent in EU AI Act regulatory sandboxes (Art. 57-62) in scope or process, requiring separate assessment for organizations participating in both |
